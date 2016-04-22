@@ -160,7 +160,8 @@ o coportamento é o mesmo
 @media screen and (min-width: 321px){
 	.announceSize1Group{
 		width: 46%;
-		margin:0px auto;
+		margin:0% 3% 0% 0%;
+		border: 1px solid red;
 	}
 }
 
