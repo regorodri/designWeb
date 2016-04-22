@@ -50,110 +50,120 @@ body{
 o coportamento é o mesmo
 #siteMenu > ul > li{
 	display: inline-block;
-}*/
+	}*/
 
-#siteMenu ul li ul{
-	display: none;
-	position: absolute;
-}
+	#siteMenu ul li ul{
+		display: none;
+		position: absolute;
+	}
 
-#siteMenu ul li ul li{
-	padding: 1% 0%;
-}
+	#siteMenu ul li ul li{
+		padding: 1% 0%;
+	}
 
-#siteMenu ul li ul li > a{
-	padding-left: 2%;
-}
+	#siteMenu ul li ul li > a{
+		padding-left: 2%;
+	}
 
-#siteMenu ul li ul li > a:link, 
-#siteMenu ul li ul li > a:visited{
-	color:#FFF;
-	text-decoration: none;
-}
+	#siteMenu ul li ul li > a:link, 
+	#siteMenu ul li ul li > a:visited{
+		color:#FFF;
+		text-decoration: none;
+	}
 
-#siteMenu ul li ul li > a:hover{
-	display: block;
-	background-color: #FFF;
-	color: #d17222;
-}
+	#siteMenu ul li ul li > a:hover{
+		display: block;
+		background-color: #FFF;
+		color: #d17222;
+	}
 
-#siteMenu ul li:hover > ul{
-	display: block;
-	background-color: #d17222;
-	color: #FFF;
-	/*font-weight: bold;*/
-	position: absolute;
-	left:0px;
-	padding: 2% 0%;
-	/*text-align: left;*/
-	width: 100%;
-	font-size: 1.25rem;
-}
+	#siteMenu ul li:hover > ul{
+		display: block;
+		background-color: #d17222;
+		color: #FFF;
+		/*font-weight: bold;*/
+		position: absolute;
+		left:0px;
+		padding: 2% 0%;
+		/*text-align: left;*/
+		width: 100%;
+		font-size: 1.25rem;
+	}
 
-#search{
-	background-color: #ACACAE;
-	border: 0px;
+	#search{
+		background-color: #ACACAE;
+		border: 0px;
 
-}
+	}
 
-#listOfHouse {
-	width: 100%;
-	text-align: center;
-}
+	#listOfHouse {
+		width: 100%;
+		text-align: center;
+	}
 
-#listOfHouse img {
-	max-width: 100%;
-	display: block; /*quita borde de abaixo img*/
-	margin: 0 auto; /*quita borde de abaixo img*/
-}
+	#listOfHouse img {
+		max-width: 100%;
+		display: block; /*quita borde de abaixo img*/
+		margin: 0 auto; /*quita borde de abaixo img*/
+	}
 
-.announce3 header, .announce2 header, .announce1 header{
-	background-color: #d17222;
-	font-weight: bold;
-	color: white;
-	font-size: 1.5em;
-	padding: .2em;
-}
+	.announce3 header, .announce2 header, .announce1 header{
+		background-color: #d17222;
+		font-weight: bold;
+		color: white;
+		font-size: 1.5em;
+		padding: .2em;
+	}
 
-.announce3 footer, .announce2 footer, .announce1 footer{
-	background-color: #ACACAE;
-	color: white;
-	font-weight: bold;
-	font-size: 1.2em;
-	padding: .2em;
-}
+	.announce3 footer, .announce2 footer, .announce1 footer{
+		background-color: #ACACAE;
+		color: white;
+		font-weight: bold;
+		font-size: 1.2em;
+		padding: .2em;
+	}
 
-.announce3 p, .announce2 p, .announce1 p{
-	background-color: #ACACAE;
-	padding: .2em;
-	color: white;
-}
+	.announce3 p, .announce2 p, .announce1 p{
+		background-color: #ACACAE;
+		padding: .2em;
+		color: white;
+	}
 
-#siteFooter{
-	background-color: #d17222;
-	font-weight: bold;
-	text-align: center;
-	font-size: .9em;
-	padding: .5em;
-	color: white;
-}
+	#siteFooter{
+		background-color: #d17222;
+		font-weight: bold;
+		text-align: center;
+		font-size: .9em;
+		padding: .5em;
+		color: white;
+	}
 
-#siteFooter p{
-	display: inline;
-}
+	#siteFooter p{
+		display: inline;
+	}
 
-#siteFooter a{
-	text-decoration: none;
-}
+	#siteFooter a{
+		text-decoration: none;
+	}
 
-a[href^="tel:"]:before, a[href^="callto:"]:before
-{
-	content: "\260E";
-	display: inline;
-	margin-right: .5rem;
-	color:#ACACAE;
-	text-decoration: none;
-}
+	a[href^="tel:"]:before, a[href^="callto:"]:before
+	{
+		content: "\260E";
+		display: inline;
+		margin-right: .5rem;
+		color:#ACACAE;
+		text-decoration: none;
+	}
 /***************************************************************
-*CSS STYLES FOR THE LIST OF HOUSES
+*2) tablet 
 ****************************************************************/
+@media screen and (min-width: 321px){
+	.announceSize1Group{
+		width: 46%;
+		margin:0px auto;
+	}
+}
+
+@media screen and (min-width: 1281px){
+	
+}
