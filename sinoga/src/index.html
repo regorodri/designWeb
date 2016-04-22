@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sinoga inmobiliaria</title>
+	<meta name="descriptción" content="nova, news, noticias">
+	<meta name="viewport" content="width=device-width , height=device-height" initial-scale="1" max-scale="1" user-scalable="1">
+	<link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
+</head>
+<body>
+	<div id="siteContainer">
+		<!--HEADER-->
+		<header id="siteHeader">
+			<nav id="siteMenu">
+				<ul>	
+					<li>
+						<img id="menuImg" src="./img/menu.jpg" alt="Men&aucute;">
+						<ul>	
+							<li><a href="./index.html" title="Servicios">Servizos</a></li>
+							<li><a href="./index.html" title="Ofertas">Ofertas</a></li>
+							<li><a href="./index.html" title="Novidades">Novidades</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<!--logo image:-->
+			<img id="menuImg" src="./img/logo.gif" title="SINOGA">
+		</header>
+
+		<!-- SEARCH OPTIONS -->
+		<section id="searchForm">
+			<form action="post" action="search.php">
+				<select name="typeOfSearch">
+					<option value="1">Compra</option>
+					<option value="2">Aluguer</option>
+					<option value="3">Vacacional</option>
+				</select>
+				<input type="text" name="textToSearch">
+				<button id="search" type="submit" formation="action.php">
+					<img src="./img/lupa2.png" alt="buscar">
+				</button>
+			</form>
+		</section>
+		
+		<!-- LIST WITH THE HOUSES TO SALE -->
+		<section id="listOfHouse">
+			<div> 
+				<article class="announce1">
+					<header class="annTitle">VENTA</header>
+					<img src="./img/casa.jpg" alt="casa venta">
+					<p class="condition">Bo Estado</p>
+					<p class="location">Hospital</p>
+					<p class="city">A Coruña</p>
+					<footer class="annPrice">650000 &euro;</footer>
+				</article>
+				<article class="announce1">
+					<header class="annTitle">VENTA</header>
+					<img src="./img/casa2.jpg" alt="casa venta">
+					<p class="condition">Bo Estado</p>
+					<p class="location">Hospital</p>
+					<p class="city">A Coruña</p>
+					<footer class="annPrice">38000 &euro;</footer>
+				</article>
+			</div>
+			<article class="announce2">
+				<header class="annTitle">VENTA</header>
+				<img src="./img/casa3.jpg" alt="casa venta">
+				<p class="condition">Bo Estado</p>
+				<p class="location">Hospital</p>
+				<p class="city">A Coruña</p>
+				<footer class="annPrice">360000 &euro;</footer>
+			</article>
+			 
+			<article class="announce3">
+				<header class="annTitle">VENTA</header>
+				<img src="./img/casa4.jpg" alt="casa venta">
+				<p class="condition">Bo Estado</p>
+				<p class="location">Hospital</p>
+				<p class="city">A Coruña</p>
+				<footer class="annPrice">550000 &euro;</footer>
+			</article>
+		</section>
+
+		<!--SITE FOOTER -->
+		<footer id="siteFooter">
+			<address>C/ Juan FLorez 119, 15000, A Coruña, Galicia</address>
+			<!--chama por telf-->
+			<p class="phone">telfs:</p> <a href="tel:+3425415652">25415652</a>
+			<!--chama por skype-->
+			<a class="phone" href="callto:+3425415652">25415652</a>
+		</footer>
+	</div>
+</body>
+</html>
